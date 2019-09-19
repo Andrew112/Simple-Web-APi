@@ -12,10 +12,10 @@ namespace WebApi.Controllers
         {
             return View();
         }
-
+                        //  Here is the controller edit!!
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your application description page. With additonal logic to be prepared.";
 
             return View();
         }
